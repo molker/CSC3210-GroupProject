@@ -14,3 +14,5 @@
 	* Players
 	* Owners
 	* Statistics
+### Entity Relationship Diagram
+![Football_ERD](football_db.png)
