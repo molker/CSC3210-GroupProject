@@ -14,5 +14,8 @@
 	* Players
 	* Owners
 	* Statistics
+### Business Rules
+### Normalization Process
+<!-- if parts aren't normalized, state why -->
 ### Entity Relationship Diagram
 ![Football_ERD](football_db.png)
