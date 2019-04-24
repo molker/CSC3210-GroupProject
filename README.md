@@ -8,6 +8,7 @@
 	* Divisions
 	* Teams
 	* Games
+	* Seasons
 	* Sponsors
 	* Members
 	* Coaches
