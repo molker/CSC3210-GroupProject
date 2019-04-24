@@ -15,6 +15,34 @@
 	* Owners
 	* Statistics
 ### Business Rules
+* Divisions to Teams:
+	* One team belongs to one division
+	* One division has many teams
+* Teams to Schedule: 
+	* A team is assigned a schedule
+	* Each schedule is assigned to a team 
+* Teams to Sponsors:
+	* One team is sponsored by many sponsors 
+	* One sponsor sponsors a team 
+* Teams to Members:
+	* One team includes many members
+	* Each member is included in a team
+* Member to Players:
+	* A member can be a Player 
+	* A Player is a Member 
+* Players to Statistics:
+	* A player has many statistics 
+	* Many statistics are made by a player
+* Members to Owners:
+	* A member can be an owner 
+	* Each owner is a member
+* Members to Coaches:
+	* A member can be a coach 
+	* Each coach is a member 
+* Coaches to Coaches:
+	* Many coaches (assistant) can report to a coach (head)
+	* A coach can not report to anyone (head coach) 
+
 ### Normalization Process
 <!-- if parts aren't normalized, state why -->
 ### Entity Relationship Diagram
