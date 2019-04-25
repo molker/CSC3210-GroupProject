@@ -1,0 +1,8 @@
+insert into teams (TEAM_CODE, DIV_CODE, TEAM_NAME, TEAM_STATE, TEAM_CITY, TEAM_WINS, TEAM_LOSSES, TEAM_TIES, TEAM_SALARY) values ('94-5829607', 1, 'Patriots', 'Massachusetts', 'Foxboro', 182, 493, 46, 5826209);
+insert into teams (TEAM_CODE, DIV_CODE, TEAM_NAME, TEAM_STATE, TEAM_CITY, TEAM_WINS, TEAM_LOSSES, TEAM_TIES, TEAM_SALARY) values ('44-2559695', 2, 'Ravens', 'Maryland', 'Baltimore', 149, 409, 97, 3183940);
+insert into teams (TEAM_CODE, DIV_CODE, TEAM_NAME, TEAM_STATE, TEAM_CITY, TEAM_WINS, TEAM_LOSSES, TEAM_TIES, TEAM_SALARY) values ('33-9318421', 3, 'Chargers', 'California', 'San Diego', 87, 403, 76, 4195865);
+insert into teams (TEAM_CODE, DIV_CODE, TEAM_NAME, TEAM_STATE, TEAM_CITY, TEAM_WINS, TEAM_LOSSES, TEAM_TIES, TEAM_SALARY) values ('56-3760287', 4, 'Jaguars', 'Florida', 'Jacksonville', 337, 182, 71, 14935361);
+insert into teams (TEAM_CODE, DIV_CODE, TEAM_NAME, TEAM_STATE, TEAM_CITY, TEAM_WINS, TEAM_LOSSES, TEAM_TIES, TEAM_SALARY) values ('83-6916832', 5, 'Saints', 'Louisiana', 'New Orleans', 177, 24, 58, 7110920);
+insert into teams (TEAM_CODE, DIV_CODE, TEAM_NAME, TEAM_STATE, TEAM_CITY, TEAM_WINS, TEAM_LOSSES, TEAM_TIES, TEAM_SALARY) values ('87-2486951', 6, 'Packers', 'Wisconson', 'Green Bay', 377, 256, 67, 10549951);
+insert into teams (TEAM_CODE, DIV_CODE, TEAM_NAME, TEAM_STATE, TEAM_CITY, TEAM_WINS, TEAM_LOSSES, TEAM_TIES, TEAM_SALARY) values ('14-0785940', 7, 'Cowboys', 'Texas', 'Dallas', 367, 364, 83, 13890279);
+insert into teams (TEAM_CODE, DIV_CODE, TEAM_NAME, TEAM_STATE, TEAM_CITY, TEAM_WINS, TEAM_LOSSES, TEAM_TIES, TEAM_SALARY) values ('28-1535532', 8, 'Seahawks', 'Washington', 'Seattle', 117, 356, 53, 14080903);
