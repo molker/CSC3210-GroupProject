@@ -70,7 +70,7 @@ We normalized our teams and our seasons table so that it is a 1-1 relationship b
 
 * Sponsors
 	* Sponsor Code (PK)
-	* Team Code (FK to teams) 
+	* Team Code (FK) 
 	* Sponsor name 
 	* Sponsor start date
 	* Sponsor end date
@@ -116,10 +116,13 @@ We normalized our teams and our seasons table so that it is a 1-1 relationship b
 	* Stat Sacks
 	* Stat Passing yards 
 	* Stat QBR 
+	* Stat Code (PK)
 	* Member Stat Num (FK)
 * Schedule
 	* Schedule Code(PK)
 	* Team Code(FK)
+	* Home Team 
+	* Away Team
 
 
 ### Entity Relationship Diagram
