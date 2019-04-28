@@ -1,10 +1,6 @@
 # Authors: Matthew Olker, Spencer Peters, Chad Sigmon, Rahul
 # Class: CSC3210
 
-CREATE DATABASE `football_db`;
-
-USE `football_db`;
-
 DROP TABLE IF EXISTS `divisions`;
 
 CREATE TABLE `divisions` (
