@@ -116,7 +116,10 @@ We normalized our teams and our seasons table so that it is a 1-1 relationship b
 	* Stat Sacks
 	* Stat Passing yards 
 	* Stat QBR 
-	* Member Stat Num (FK)  
+	* Member Stat Num (FK)
+* Schedule
+	* Schedule Code(PK)
+	* Team Code(FK)
 
 
 ### Entity Relationship Diagram
