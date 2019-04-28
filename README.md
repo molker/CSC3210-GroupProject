@@ -44,6 +44,7 @@
 	* A coach can not report to anyone (head coach) 
 
 ### Normalization Process
+We normalized our teams and our seasons table so that it is a 1-1 relationship by changing the seasons table to a schedule table. 
 <!-- if parts aren't normalized, state why -->
 
 * Divisions
