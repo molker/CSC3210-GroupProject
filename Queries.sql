@@ -35,3 +35,14 @@ FROM teams AS T
 JOIN divisions AS D ON T.DIV_CODE = D.DIV_CODE
 WHERE D.DIV_CODE = "1" ;                         
 
+/* Displays all Players who are the Taurus Astrological Sign */
+SELECT CONCAT(M.MEMBER_FNAME, " ", M.MEMBER_LNAME) AS "Taurus Players", P.PLAYER_DOB AS "Birthday"
+FROM members AS M
+JOIN players AS P ON M.MEMBER_NUM = P.MEMBER_NUM
+WHERE P.PLAYER_DOB LIKE "%-04-2%"
+OR P.PLAYER_DOB LIKE "%-04-3%"
+OR P.PLAYER_DOB LIKE "%-05-0%"
+OR P.PLAYER_DOB LIKE "%-05-1%"
+OR P.PLAYER_DOB LIKE "%-05-20"
+OR P.PLAYER_DOB LIKE "%-04-21"
+ORDER BY P.PLAYER_DOB;
