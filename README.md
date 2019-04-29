@@ -117,7 +117,7 @@ We originally had our schedule table labeled as seasons, but then realized it wo
 	* Stat Passing yards 
 	* Stat QBR 
 	* Stat Code (PK)
-	* Member Stat Num (FK)
+	* Member Num (FK)
 
 
 ### Entity Relationship Diagram
