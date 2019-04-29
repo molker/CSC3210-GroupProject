@@ -46,17 +46,14 @@
 ### Normalization Process
 We originally had our schedule table labeled as seasons, but then realized it would create a many-to-many relationship, so we replaced seasons with schedules to solve that issue.
 <!-- if parts aren't normalized, state why -->
-
 * Divisions
 	* Division Code (PK)
 	* Division Name
-
 * Schedules
 	* Schedule Code (PK)
 	* Team Code (FK)
 	* Home Team
 	* Away Team
-
 * Team
 	* Team Code (PK)
 	* Division Code (FK)
@@ -67,7 +64,6 @@ We originally had our schedule table labeled as seasons, but then realized it wo
 	* Team Losses
 	* Team Ties
 	* Salary Cap
-
 * Sponsors
 	* Sponsor Code (PK)
 	* Team Code (FK) 
@@ -75,7 +71,6 @@ We originally had our schedule table labeled as seasons, but then realized it wo
 	* Sponsor start date
 	* Sponsor end date
 	* Sponsor rank (i.e tickets given)
-
 * Members
 	* Member Num (PK)
 	* Team Code (FK)
@@ -85,12 +80,10 @@ We originally had our schedule table labeled as seasons, but then realized it wo
 	* Member State
 	* Member Phone 
 		* No need to separate out phone area code or address line (street num/name). More focused on member/player info
-
 * Coaches
 	* Member Num (PK)
 	* Coach Reports to (self to self relationship)
 	* Coach Role
-
 * Players
 	* Member Num (PK)
 	* Player Date of Birth
@@ -100,13 +93,11 @@ We originally had our schedule table labeled as seasons, but then realized it wo
 	* Player Position(Ex: QB , RB, LB)
 	* Player Number
 	* Player Contract Term
-
 * Owners
 	* Member Num (PK)
 	* Owner Hire Date
 	* Owner Start Date
 	* Owner Acquisition Price
-
 * Statistics
 	* Member Num
 	* Stat Receiving yards
@@ -118,7 +109,6 @@ We originally had our schedule table labeled as seasons, but then realized it wo
 	* Stat QBR 
 	* Stat Code (PK)
 	* Member Num (FK)
-
 
 ### Entity Relationship Diagram
 ![Football_ERD](football_db.png)
