@@ -26,16 +26,24 @@ WHERE TEAM_STATE='CA';
 SELECT COUNT(S.SPON_CODE) AS "Number of Sponsors for Patriots"
 FROM sponsors AS S 
 JOIN teams AS T ON S.TEAM_CODE = T.TEAM_CODE 
-WHERE T.TEAM_CODE = 10        
+WHERE T.TEAM_CODE = 10      
                           
-/* Displaying all the teams that are in the NFC East   */                          
+/* All the Players that Went to UCLA */
 # 5. 
+SELECT members.MEMBER_FNAME, members.MEMBER_LNAME, PLAYER_COLLEGE FROM players
+JOIN members ON members.MEMBER_NUM = players.MEMBER_NUM
+WHERE PLAYER_COLLEGE LIKE 'UCLA'
+ORDER BY members.MEMBER_LNAME;                          
+                                              
+/* Displaying all the teams that are in the NFC East   */                          
+# 6. 
 SELECT T.TEAM_NAME AS "Teams from the NFC East"
 FROM teams AS T                          
 JOIN divisions AS D ON T.DIV_CODE = D.DIV_CODE
 WHERE D.DIV_CODE = "1" ;                         
 
 /* Displays all Players who are the Taurus Astrological Sign */
+# 7.                          
 SELECT CONCAT(M.MEMBER_FNAME, " ", M.MEMBER_LNAME) AS "Taurus Players", P.PLAYER_DOB AS "Birthday"
 FROM members AS M
 JOIN players AS P ON M.MEMBER_NUM = P.MEMBER_NUM
