@@ -44,7 +44,7 @@
 	* A coach can not report to anyone (head coach) 
 
 ### Normalization Process
-We normalized our teams and our seasons table so that it is a 1-1 relationship by changing the seasons table to a schedule table. 
+We originally had our schedule table labeled as seasons, but then realized it would create a many-to-many relationship, so we replaced seasons with schedules to solve that issue.
 <!-- if parts aren't normalized, state why -->
 
 * Divisions
@@ -118,6 +118,7 @@ We normalized our teams and our seasons table so that it is a 1-1 relationship b
 	* Stat QBR 
 	* Stat Code (PK)
 	* Member Stat Num (FK)
+
 * Schedule
 	* Schedule Code(PK)
 	* Team Code(FK)
