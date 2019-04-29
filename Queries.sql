@@ -32,8 +32,4 @@ SELECT T.TEAM_NAME AS "Teams from the NFC East"
 FROM teams AS T                          
 JOIN divisions AS D ON T.DIV_CODE = D.DIV_CODE
 WHERE D.DIV_CODE = "1" ;                         
- /* How many wins do the saints have */
-# 6.
-SELECT TEAM_NAME AS "Saints", TEAM_WINS AS "Wins for Saints" 
-FROM teams 
-WHERE TEAM_NAME = "Saints";
+
