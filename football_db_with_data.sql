@@ -2263,7 +2263,7 @@ insert into players (MEMBER_NUM, PLAYER_DOB, PLAYER_HEIGHT, PLAYER_WEIGHT, PLAYE
 insert into players (MEMBER_NUM, PLAYER_DOB, PLAYER_HEIGHT, PLAYER_WEIGHT, PLAYER_COLLEGE, PLAYER_POSITION, PLAYER_NUM, PLAYER_TERM) values (1000, '12/11/1986', 71, 389, 'New Mexico', 'Cornerback', 67, 7);
 
  # Insert Coaches Data
- insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (31, null, 'Head Coach');
+insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (29, null, 'Head Coach');
 insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (15, 19, 'Offensive Coach');
 insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (20, 4, 'Defensive Coach');
 insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (3, null, 'Head Coach');
@@ -2273,9 +2273,9 @@ insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (32, 20, 'A
 insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (5, null, 'Head Coach');
 insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (26, 14, 'Assitant Coach');
 insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (14, null, 'Head Coach');
-insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (24, 21, 'Defensive Coach');
+insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (23, 21, 'Defensive Coach');
 insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (24, 9, 'Defensive Coach');
-insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (5, 27, 'Defensive Coach');
+insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (4, 27, 'Defensive Coach');
 insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (31, 1, 'Assitant Coach');
 insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (27, 14, 'Offensive Coach');
 insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (12, 26, 'Assitant Coach');
@@ -2283,15 +2283,15 @@ insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (8, 2, 'Ass
 insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (17, 19, 'Defensive Coach');
 insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (6, 24, 'Assitant Coach');
 insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (18, 27, 'Assitant Coach');
-insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (14, 20, 'Assitant Coach');
-insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (23, null, 'Head Coach');
-insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (6, 3, 'Assitant Coach');
-insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (12, null, 'Head Coach');
-insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (8, 11, 'Offensive Coach');
+insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (7, 20, 'Assitant Coach');
+insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (9, null, 'Head Coach');
+insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (11, 3, 'Assitant Coach');
+insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (19, null, 'Head Coach');
+insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (28, 11, 'Offensive Coach');
 insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (13, null, 'Head Coach');
-insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (20, 14, 'Offensive Coach');
-insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (16, 6, 'Defensive Coach');
-insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (17, 32, 'Defensive Coach');
+insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (1, 14, 'Offensive Coach');
+insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (2, 6, 'Defensive Coach');
+insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (22, 32, 'Defensive Coach');
 insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (30, null, 'Head Coach');
 insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (25, 14, 'Defensive Coach');
 insert into coaches (MEMBER_NUM, COACH_REPORTSTO, COACH_ROLE) values (10, 21, 'Assitant Coach');
