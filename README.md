@@ -53,7 +53,7 @@ We originally had our schedule table labeled as seasons, but then realized it wo
 
 * Schedules
 	* Schedule Code (PK)
-	* Team Code
+	* Team Code (FK)
 	* Home Team
 	* Away Team
 
@@ -118,12 +118,6 @@ We originally had our schedule table labeled as seasons, but then realized it wo
 	* Stat QBR 
 	* Stat Code (PK)
 	* Member Stat Num (FK)
-
-* Schedule
-	* Schedule Code(PK)
-	* Team Code(FK)
-	* Home Team 
-	* Away Team
 
 
 ### Entity Relationship Diagram
