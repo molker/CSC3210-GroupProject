@@ -22,14 +22,14 @@ JOIN teams AS T ON M.TEAM_CODE= T.TEAM_CODE
 WHERE TEAM_STATE='CA';
 /* Counting the number of Sponsors that Patriots have, I could have done it without a join but figured using join would show that we have a better knowledge of using join*/
 # 4.
-SELECT COUNT(S.SPON_NUMBER) AS "Number of Sponsors for Patriots"
+SELECT COUNT(S.SPON_CODE) AS "Number of Sponsors for Patriots"
 FROM sponsors AS S 
 JOIN teams AS T ON S.TEAM_CODE = T.TEAM_CODE 
-WHERE T.TEAM_CODE = "10";                          
+WHERE T.TEAM_CODE = 10               
 /* Displaying all the teams that are in the NFC East   */                          
 # 5 . 
-SELECT T.T_NAME AS "Teams from the NFC East"
+SELECT T.TEAM_NAME AS "Teams from the NFC East"
 FROM teams AS T                          
 JOIN divisions AS D ON T.DIV_CODE = D.DIV_CODE
-WHERE D.DIV_CODE = "1";                           
+WHERE D.DIV_CODE = "1"                          
  
