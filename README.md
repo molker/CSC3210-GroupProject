@@ -7,7 +7,7 @@
 * Tables
 	* Divisions
 	* Teams
-	* Seasons
+	* Schedules
 	* Sponsors
 	* Members
 	* Coaches
