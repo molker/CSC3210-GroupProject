@@ -11,7 +11,7 @@ WHERE TEAM_NAME = "Ravens";
 SELECT COUNT(PLAYER_NUM) AS "Number of Players in Cowboys"
 FROM players AS P 
 JOIN members AS M ON P.MEMBER_NUM = M.MEMBER_NUM 
-JOIN teams AS T ON T.TEAMCODE = M.TEAM_CODE
+JOIN teams AS T ON T.TEAM_CODE = M.TEAM_CODE
 WHERE TEAM_NAME = "Cowboys";
 
 
