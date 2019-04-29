@@ -8,7 +8,7 @@
  SELECT COUNT(PLAYER_NUM )
        FROM Players AS P JOIN Members AS M ON P.MEMBER_NUM = M.MEMBER_NUM 
          JOIN Teams AS T ON T.TEAMCODE = M.TEAM_CODE
-            WHERE TEAM_NAME = 'CowBoys';
+            WHERE TEAM_NAME = 'Cowboys';
 
 /* Displaying the players in the team that are in California*/
  SELECT PLAYER_NUM
