@@ -27,9 +27,13 @@ FROM sponsors AS S
 JOIN teams AS T ON S.TEAM_CODE = T.TEAM_CODE 
 WHERE T.TEAM_CODE = 10               
 /* Displaying all the teams that are in the NFC East   */                          
-# 5 . 
+# 5. 
 SELECT T.TEAM_NAME AS "Teams from the NFC East"
 FROM teams AS T                          
 JOIN divisions AS D ON T.DIV_CODE = D.DIV_CODE
-WHERE D.DIV_CODE = "1"                          
- 
+WHERE D.DIV_CODE = "1" ;                         
+ /* How many wins do the saints have */
+# 6.
+SELECT TEAM_NAME AS "Saints", TEAM_WINS AS "Wins for Saints" 
+FROM teams 
+WHERE TEAM_NAME = "Saints";
